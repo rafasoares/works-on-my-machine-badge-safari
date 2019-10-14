@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6819A5A23552EE3008CE35E /* WorksOnMyMachineBadge.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = F6819A5923552EE3008CE35E /* WorksOnMyMachineBadge.entitlements */; };
+		F6819A5C23552EE3008CE35E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6819A5B23552EE3008CE35E /* AppDelegate.swift */; };
+		F6819A5F23552EE3008CE35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6819A5D23552EE3008CE35E /* Main.storyboard */; };
+		F6819A6123552EE3008CE35E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6819A6023552EE3008CE35E /* ViewController.swift */; };
+		F6819A6323552EE5008CE35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6819A6223552EE5008CE35E /* Assets.xcassets */; };
+		F6819A6A23552EE5008CE35E /* WorksOnMyMachineBadge Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F6819A6923552EE5008CE35E /* WorksOnMyMachineBadge Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F6819A6F23552EE5008CE35E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6819A6E23552EE5008CE35E /* Cocoa.framework */; };
+		F6819A7223552EE5008CE35E /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6819A7123552EE5008CE35E /* SafariExtensionHandler.swift */; };
+		F6819A7A23552EE5008CE35E /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = F6819A7923552EE5008CE35E /* script.js */; };
+		F6819A8A235536C9008CE35E /* badge.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F6819A89235536C9008CE35E /* badge.pdf */; };
+		F6819A8C23554E37008CE35E /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = F6819A8B23554E37008CE35E /* style.css */; };
+		F6819A8E23554F84008CE35E /* badge.png in Resources */ = {isa = PBXBuildFile; fileRef = F6819A8D23554F84008CE35E /* badge.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6819A6B23552EE5008CE35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6819A4E23552EE3008CE35E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6819A6823552EE5008CE35E;
+			remoteInfo = "WorksOnMyMachineBadge Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6819A8323552EE5008CE35E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F6819A6A23552EE5008CE35E /* WorksOnMyMachineBadge Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F6819A5623552EE3008CE35E /* WorksOnMyMachineBadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorksOnMyMachineBadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6819A5923552EE3008CE35E /* WorksOnMyMachineBadge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorksOnMyMachineBadge.entitlements; sourceTree = "<group>"; };
+		F6819A5B23552EE3008CE35E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6819A5E23552EE3008CE35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6819A6023552EE3008CE35E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6819A6223552EE5008CE35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6819A6423552EE5008CE35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6819A6923552EE5008CE35E /* WorksOnMyMachineBadge Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WorksOnMyMachineBadge Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6819A6E23552EE5008CE35E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F6819A7123552EE5008CE35E /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		F6819A7823552EE5008CE35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6819A7923552EE5008CE35E /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		F6819A7D23552EE5008CE35E /* WorksOnMyMachineBadge_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorksOnMyMachineBadge_Extension.entitlements; sourceTree = "<group>"; };
+		F6819A89235536C9008CE35E /* badge.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = badge.pdf; sourceTree = "<group>"; };
+		F6819A8B23554E37008CE35E /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		F6819A8D23554F84008CE35E /* badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6819A5323552EE3008CE35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6819A6623552EE5008CE35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6819A6F23552EE5008CE35E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6819A4D23552EE3008CE35E = {
+			isa = PBXGroup;
+			children = (
+				F6819A5823552EE3008CE35E /* WorksOnMyMachineBadge */,
+				F6819A7023552EE5008CE35E /* WorksOnMyMachineBadge Extension */,
+				F6819A6D23552EE5008CE35E /* Frameworks */,
+				F6819A5723552EE3008CE35E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6819A5723552EE3008CE35E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6819A5623552EE3008CE35E /* WorksOnMyMachineBadge.app */,
+				F6819A6923552EE5008CE35E /* WorksOnMyMachineBadge Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6819A5823552EE3008CE35E /* WorksOnMyMachineBadge */ = {
+			isa = PBXGroup;
+			children = (
+				F6819A5923552EE3008CE35E /* WorksOnMyMachineBadge.entitlements */,
+				F6819A5B23552EE3008CE35E /* AppDelegate.swift */,
+				F6819A5D23552EE3008CE35E /* Main.storyboard */,
+				F6819A6023552EE3008CE35E /* ViewController.swift */,
+				F6819A6223552EE5008CE35E /* Assets.xcassets */,
+				F6819A6423552EE5008CE35E /* Info.plist */,
+			);
+			path = WorksOnMyMachineBadge;
+			sourceTree = "<group>";
+		};
+		F6819A6D23552EE5008CE35E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6819A6E23552EE5008CE35E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6819A7023552EE5008CE35E /* WorksOnMyMachineBadge Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F6819A8D23554F84008CE35E /* badge.png */,
+				F6819A89235536C9008CE35E /* badge.pdf */,
+				F6819A7123552EE5008CE35E /* SafariExtensionHandler.swift */,
+				F6819A7823552EE5008CE35E /* Info.plist */,
+				F6819A7923552EE5008CE35E /* script.js */,
+				F6819A7D23552EE5008CE35E /* WorksOnMyMachineBadge_Extension.entitlements */,
+				F6819A8B23554E37008CE35E /* style.css */,
+			);
+			path = "WorksOnMyMachineBadge Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6819A5523552EE3008CE35E /* WorksOnMyMachineBadge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6819A8423552EE5008CE35E /* Build configuration list for PBXNativeTarget "WorksOnMyMachineBadge" */;
+			buildPhases = (
+				F6819A5223552EE3008CE35E /* Sources */,
+				F6819A5323552EE3008CE35E /* Frameworks */,
+				F6819A5423552EE3008CE35E /* Resources */,
+				F6819A8323552EE5008CE35E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6819A6C23552EE5008CE35E /* PBXTargetDependency */,
+			);
+			name = WorksOnMyMachineBadge;
+			productName = WorksOnMyMachineBadge;
+			productReference = F6819A5623552EE3008CE35E /* WorksOnMyMachineBadge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6819A6823552EE5008CE35E /* WorksOnMyMachineBadge Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6819A8023552EE5008CE35E /* Build configuration list for PBXNativeTarget "WorksOnMyMachineBadge Extension" */;
+			buildPhases = (
+				F6819A6523552EE5008CE35E /* Sources */,
+				F6819A6623552EE5008CE35E /* Frameworks */,
+				F6819A6723552EE5008CE35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WorksOnMyMachineBadge Extension";
+			productName = "WorksOnMyMachineBadge Extension";
+			productReference = F6819A6923552EE5008CE35E /* WorksOnMyMachineBadge Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6819A4E23552EE3008CE35E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Rafael Soares";
+				TargetAttributes = {
+					F6819A5523552EE3008CE35E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					F6819A6823552EE5008CE35E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = F6819A5123552EE3008CE35E /* Build configuration list for PBXProject "WorksOnMyMachineBadge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6819A4D23552EE3008CE35E;
+			productRefGroup = F6819A5723552EE3008CE35E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6819A5523552EE3008CE35E /* WorksOnMyMachineBadge */,
+				F6819A6823552EE5008CE35E /* WorksOnMyMachineBadge Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6819A5423552EE3008CE35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6819A5A23552EE3008CE35E /* WorksOnMyMachineBadge.entitlements in Resources */,
+				F6819A6323552EE5008CE35E /* Assets.xcassets in Resources */,
+				F6819A5F23552EE3008CE35E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6819A6723552EE5008CE35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6819A8A235536C9008CE35E /* badge.pdf in Resources */,
+				F6819A8C23554E37008CE35E /* style.css in Resources */,
+				F6819A7A23552EE5008CE35E /* script.js in Resources */,
+				F6819A8E23554F84008CE35E /* badge.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6819A5223552EE3008CE35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6819A6123552EE3008CE35E /* ViewController.swift in Sources */,
+				F6819A5C23552EE3008CE35E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6819A6523552EE5008CE35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6819A7223552EE5008CE35E /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6819A6C23552EE5008CE35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6819A6823552EE5008CE35E /* WorksOnMyMachineBadge Extension */;
+			targetProxy = F6819A6B23552EE5008CE35E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6819A5D23552EE3008CE35E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6819A5E23552EE3008CE35E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6819A7E23552EE5008CE35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6819A7F23552EE5008CE35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F6819A8123552EE5008CE35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WorksOnMyMachineBadge Extension/WorksOnMyMachineBadge_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2V8GKXBT7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "WorksOnMyMachineBadge Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafasoares.WorksOnMyMachineBadge-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F6819A8223552EE5008CE35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WorksOnMyMachineBadge Extension/WorksOnMyMachineBadge_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2V8GKXBT7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "WorksOnMyMachineBadge Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafasoares.WorksOnMyMachineBadge-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F6819A8523552EE5008CE35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WorksOnMyMachineBadge/WorksOnMyMachineBadge.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A2V8GKXBT7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WorksOnMyMachineBadge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafasoares.WorksOnMyMachineBadge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F6819A8623552EE5008CE35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WorksOnMyMachineBadge/WorksOnMyMachineBadge.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A2V8GKXBT7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WorksOnMyMachineBadge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafasoares.WorksOnMyMachineBadge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6819A5123552EE3008CE35E /* Build configuration list for PBXProject "WorksOnMyMachineBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6819A7E23552EE5008CE35E /* Debug */,
+				F6819A7F23552EE5008CE35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6819A8023552EE5008CE35E /* Build configuration list for PBXNativeTarget "WorksOnMyMachineBadge Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6819A8123552EE5008CE35E /* Debug */,
+				F6819A8223552EE5008CE35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6819A8423552EE5008CE35E /* Build configuration list for PBXNativeTarget "WorksOnMyMachineBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6819A8523552EE5008CE35E /* Debug */,
+				F6819A8623552EE5008CE35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6819A4E23552EE3008CE35E /* Project object */;
+}
