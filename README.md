@@ -1,3 +1,6 @@
+# IMPORTANT - This repository is archived
+Moved to https://github.com/rafasoares/works-on-my-machine-badge/tree/master/safari
+
 # Works on my Machine! Badge Extension for Safari
 
 This simple Safari extension toggles a "Works on my Machine!" badge on any web page.
